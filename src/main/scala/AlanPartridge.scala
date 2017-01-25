@@ -1,24 +1,5 @@
 object AlanPartridge {
   val alanisms = List("Pear Tree", "Chat","Dan","Toblerone","Lynn","Alpha Papa","Nomad")
-//
-//  def findWords(words: List[String]) = {
-//
-//    var c = 0;
-//    var found=0
-//    while (c < words.length){
-//      if (alanisms.contains(words(c))) found=found+1
-//      else found
-//      println(c)
-//      c=c+1
-//    }
-//
-//    if (found>0)
-//       "Mines a pint" ++ List.fill(found)("!").mkString
-//    else
-//       "I've stood on a spike!"
-//
-//  }
-
 
   def findWords(words: List[String]) = {
 
